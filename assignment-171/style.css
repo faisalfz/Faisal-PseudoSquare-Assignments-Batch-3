@@ -1,10 +1,8 @@
 body{
-    /* background-color: lightgray; */
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .allLeaves{
-    /* width: 75%; */
     display: flex;
     justify-content:center;
     vertical-align: middle;

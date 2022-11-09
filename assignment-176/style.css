@@ -1,0 +1,155 @@
+body{
+  margin:  0;
+  padding: 0;
+  /* font-family: arial, sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #EEF3FA;
+}
+
+.mainTitle{
+  font-size: 36px;
+  height: 32px;
+}
+
+section{
+  padding: 4px 16px 20px 16px;
+  /* padding-bottom: 16px; */
+  width: 400px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.leaveAllTabs{
+  display: flex;
+  justify-content: space-between;
+  background-color: #F3F3F3;
+  border-radius: 12px;
+  /* margin-bottom: 28px; */
+}
+
+.leaveTab {
+  width:33.33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+.leaveTab1{
+  background-color: white;
+  box-shadow: 0px 0px 8px #88888860;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.leaveTab p{
+  padding: 0px 4px;
+  font-size: 20px;
+  color: rgb(148, 148, 148);
+}
+
+.leaveTab1 p{
+  color: black;
+  font-weight: 600;
+  
+}
+
+.leaveTab2 i{
+  color: #FEB606;
+}
+
+.leaveTab3 i{
+  color: #7981F5;
+}
+
+
+.tabAllInboxData{
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-between;
+  border: 1px solid #8888883b;
+  padding: 8px 12px;
+  margin: 16px 0;
+  border-radius: 16px;
+  box-shadow: 0px 0px 0px 0.75px #8888883b;
+
+
+}
+
+.date1Column1{
+  display: flex;
+  flex-direction: column;
+  align-content:stretch;
+    
+}
+
+.date1Column2{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: end; */
+  /* text-align: end; */
+  align-items:flex-end;
+}
+
+.date{
+  /* margin-left: 12px; */
+  color: rgb(148, 148, 148);
+  font-weight: 500;
+  padding: 20px 0px 0px 12px;
+}
+
+.leaveType{
+  color: rgb(148, 148, 148);
+  font-weight: 500;
+  height: 8px;
+}
+
+.leaveDate{
+  color: black;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  height: 8px;
+}
+
+.leaveReason{
+  font-weight: 600;
+}
+
+.casual{
+  color: #feb806d7;
+}
+
+.sick{
+  color: #7981F5;
+}
+
+.leaveStatus{
+  font-weight: 600;
+  padding: 8px 20px;
+  border-radius: 8px;
+}
+
+.awaiting{
+  background-color: #FFEFC2;
+  color: #D6B95C;
+}
+
+.approved{
+  background-color: #B6F5D2;
+  color: #67BA7F;
+}
+
+.declined{
+  background-color: #FFEFED;
+  color: #FBB0AF;
+}
+
+.leaveIcon{
+ padding: 12px 16px;
+ width:16px;
+ font-size: 16px;
+ color: #9C9BA1;
+ background-color: #F3F3F3;
+ border-radius: 8px;
+}
