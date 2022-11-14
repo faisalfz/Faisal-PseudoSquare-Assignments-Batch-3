@@ -4,7 +4,6 @@ body{
 }
 
 .allLeaves{
-    /* width: 75%; */
     display: flex;
     justify-content:center;
     vertical-align: middle;

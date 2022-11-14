@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+section{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.LeaveRequestsTable{
+  width: 100%;
+}
+
+th{
+  text-align: left;
+}
+
+.mainHeadRow{
+
+}
+
+.columnEmployeeName{
+  display: flex;
+  align-items: center;
+}
+
+.columnEmployeeName img{
+  margin-right: 12px;
+}
+
+.columnFromTO{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ApproveDissaproveMore a{
+  color: black;
+  text-decoration: none;
+  padding: 0 4px;
+}
